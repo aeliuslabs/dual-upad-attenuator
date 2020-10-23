@@ -1,0 +1,286 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R2
+U 1 1 5F6F7CF9
+P 1850 2100
+F 0 "R2" V 1643 2100 50  0000 C CNN
+F 1 "261R" V 1734 2100 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1780 2100 50  0001 C CNN
+F 3 "~" H 1850 2100 50  0001 C CNN
+	1    1850 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J2
+U 1 1 5F6FEFE5
+P 1850 2700
+F 0 "J2" V 1850 2500 50  0000 R CNN
+F 1 "Conn_01x03_Male" V 1913 2512 50  0001 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1850 2700 50  0001 C CNN
+F 3 "~" H 1850 2700 50  0001 C CNN
+	1    1850 2700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1450 2100 1700 2100
+Wire Wire Line
+	2000 2100 2250 2100
+Wire Wire Line
+	1750 2500 1450 2500
+Wire Wire Line
+	1450 2500 1450 2100
+Connection ~ 1450 2100
+Wire Wire Line
+	1950 2500 2250 2500
+Wire Wire Line
+	2250 2500 2250 2100
+$Comp
+L power:GND #PWR0101
+U 1 1 5F70173D
+P 1850 1500
+F 0 "#PWR0101" H 1850 1250 50  0001 C CNN
+F 1 "GND" H 1855 1327 50  0000 C CNN
+F 2 "" H 1850 1500 50  0001 C CNN
+F 3 "" H 1850 1500 50  0001 C CNN
+	1    1850 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5F702421
+P 1950 2250
+F 0 "#PWR0102" H 1950 2000 50  0001 C CNN
+F 1 "GND" H 1955 2077 50  0000 C CNN
+F 2 "" H 1950 2250 50  0001 C CNN
+F 3 "" H 1950 2250 50  0001 C CNN
+	1    1950 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J1
+U 1 1 5F6FD379
+P 1850 1200
+F 0 "J1" V 1850 1000 50  0000 R CNN
+F 1 "Conn_01x03_Male" V 2003 1012 50  0001 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1850 1200 50  0001 C CNN
+F 3 "~" H 1850 1200 50  0001 C CNN
+	1    1850 1200
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5F6F755D
+P 1450 1800
+F 0 "R1" H 1520 1846 50  0000 L CNN
+F 1 "600R" H 1520 1755 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1380 1800 50  0001 C CNN
+F 3 "~" H 1450 1800 50  0001 C CNN
+	1    1450 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5F707D9C
+P 6750 2100
+F 0 "#PWR0104" H 6750 1850 50  0001 C CNN
+F 1 "GND" H 6755 1927 50  0000 C CNN
+F 2 "" H 6750 2100 50  0001 C CNN
+F 3 "" H 6750 2100 50  0001 C CNN
+	1    6750 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5F709B16
+P 6750 2000
+F 0 "#FLG0101" H 6750 2075 50  0001 C CNN
+F 1 "PWR_FLAG" H 6750 2173 50  0000 C CNN
+F 2 "" H 6750 2000 50  0001 C CNN
+F 3 "~" H 6750 2000 50  0001 C CNN
+	1    6750 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 2000 6750 2100
+Wire Wire Line
+	1850 2500 1850 2250
+Wire Wire Line
+	1850 2250 1950 2250
+Wire Wire Line
+	1450 1950 1450 2100
+Wire Wire Line
+	2250 1950 2250 2100
+Connection ~ 2250 2100
+$Comp
+L Device:R R5
+U 1 1 5F71529B
+P 3500 2150
+F 0 "R5" V 3293 2150 50  0000 C CNN
+F 1 "261R" V 3384 2150 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3430 2150 50  0001 C CNN
+F 3 "~" H 3500 2150 50  0001 C CNN
+	1    3500 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J4
+U 1 1 5F7152AF
+P 3500 2750
+F 0 "J4" V 3500 2550 50  0000 R CNN
+F 1 "Conn_01x03_Male" V 3563 2562 50  0001 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3500 2750 50  0001 C CNN
+F 3 "~" H 3500 2750 50  0001 C CNN
+	1    3500 2750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3100 2150 3350 2150
+Wire Wire Line
+	3650 2150 3900 2150
+Wire Wire Line
+	3400 2550 3100 2550
+Wire Wire Line
+	3100 2550 3100 2150
+Connection ~ 3100 2150
+Wire Wire Line
+	3600 2550 3900 2550
+Wire Wire Line
+	3900 2550 3900 2150
+$Comp
+L power:GND #PWR0103
+U 1 1 5F7152C2
+P 3500 1500
+F 0 "#PWR0103" H 3500 1250 50  0001 C CNN
+F 1 "GND" H 3505 1327 50  0000 C CNN
+F 2 "" H 3500 1500 50  0001 C CNN
+F 3 "" H 3500 1500 50  0001 C CNN
+	1    3500 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5F7152CC
+P 3600 2300
+F 0 "#PWR0105" H 3600 2050 50  0001 C CNN
+F 1 "GND" H 3605 2127 50  0000 C CNN
+F 2 "" H 3600 2300 50  0001 C CNN
+F 3 "" H 3600 2300 50  0001 C CNN
+	1    3600 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J3
+U 1 1 5F7152D6
+P 3500 1200
+F 0 "J3" V 3500 1000 50  0000 R CNN
+F 1 "Conn_01x03_Male" V 3653 1012 50  0001 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3500 1200 50  0001 C CNN
+F 3 "~" H 3500 1200 50  0001 C CNN
+	1    3500 1200
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	3500 2550 3500 2300
+Wire Wire Line
+	3500 2300 3600 2300
+Wire Wire Line
+	3100 2000 3100 2150
+Wire Wire Line
+	3900 2000 3900 2150
+Connection ~ 3900 2150
+Wire Wire Line
+	1450 1650 1450 1400
+Wire Wire Line
+	1450 1400 1750 1400
+Wire Wire Line
+	1850 1400 1850 1500
+Wire Wire Line
+	1950 1400 2250 1400
+Wire Wire Line
+	2250 1400 2250 1650
+Wire Wire Line
+	3100 1700 3100 1400
+Wire Wire Line
+	3100 1400 3400 1400
+Wire Wire Line
+	3500 1400 3500 1500
+Wire Wire Line
+	3600 1400 3900 1400
+Wire Wire Line
+	3900 1400 3900 1700
+Text Notes 1450 900  0    50   ~ 0
+Channel 1
+Text Notes 3100 900  0    50   ~ 0
+Channel 2
+Text Notes 1950 1150 1    35   ~ 0
+IN1-
+Text Notes 1850 1150 1    35   ~ 0
+GND
+Text Notes 1750 1150 1    35   ~ 0
+IN1+
+Text Notes 3600 1150 1    35   ~ 0
+IN2-
+Text Notes 3500 1150 1    35   ~ 0
+GND
+Text Notes 3400 1150 1    35   ~ 0
+IN2+
+Text Notes 1950 2900 1    35   ~ 0
+OUT1-
+Text Notes 1850 2900 1    35   ~ 0
+GND
+Text Notes 1750 2900 1    35   ~ 0
+OUT1+
+Text Notes 3600 2950 1    35   ~ 0
+OUT2-
+Text Notes 3500 2950 1    35   ~ 0
+GND
+Text Notes 3400 2950 1    35   ~ 0
+OUT2+
+$Comp
+L Device:R R3
+U 1 1 5F6F894C
+P 2250 1800
+F 0 "R3" H 2320 1846 50  0000 L CNN
+F 1 "600R" H 2320 1755 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2180 1800 50  0001 C CNN
+F 3 "~" H 2250 1800 50  0001 C CNN
+	1    2250 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5F7152E1
+P 3100 1850
+F 0 "R4" H 3170 1896 50  0000 L CNN
+F 1 "600R" H 3170 1805 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3030 1850 50  0001 C CNN
+F 3 "~" H 3100 1850 50  0001 C CNN
+	1    3100 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 5F7152A5
+P 3900 1850
+F 0 "R6" H 3970 1896 50  0000 L CNN
+F 1 "600R" H 3970 1805 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3830 1850 50  0001 C CNN
+F 3 "~" H 3900 1850 50  0001 C CNN
+	1    3900 1850
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
